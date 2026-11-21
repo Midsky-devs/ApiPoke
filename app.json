@@ -1,16 +1,17 @@
 {
   "expo": {
-    "name": "paupau5",
-    "slug": "paupau5",
+    "name": "jpdsm43",
+    "slug": "jpapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "paupau5",
+    "scheme": "Salazar",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.jpsc.PablitoClavoUnClavito",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -20,11 +21,9 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
@@ -34,9 +33,10 @@
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+    "extra": {
+      "eas": {
+        "projectId": "427d02be-b507-4fb0-a2af-9265a599e694"
+      }
     }
   }
 }
